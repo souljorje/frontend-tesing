@@ -12,7 +12,7 @@
     "lint": "eslint -f node_modules/eslint-friendly-formatter --ext .js,.vue --fix --ignore-path .eslintignore .",
     "precommit": "npm run lint",
     "test:unit": "jest --config tests/jest.config.js",
-    "test:e2e": "cross-env NODE_ENV=e2e testcafe all tests/e2e/*.test.js -e --app \"yarn run dev\" --app-init-delay 10000 -S -s screenshots"
+    "test:e2e": "cross-env NODE_ENV=e2e testcafe all tests/e2e/*.test.js -e --app \"yarn run dev\" --app-init-delay 10000 -S -s tests/e2e/screenshots"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",

@@ -20,7 +20,7 @@
       <button @click="increment(1)">Increment</button>
     </div>
     <button @click="reset">Reset</button>
-    <div>{{ value }}</div>
+    <div class="value">{{ value }}</div>
   </div>
 </template>
 

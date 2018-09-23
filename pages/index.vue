@@ -18,6 +18,9 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey">GitHub</a>
+        <router-link
+          to="/test"
+          class="button--grey">Go to test page</router-link>
       </div>
     </div>
   </section>
