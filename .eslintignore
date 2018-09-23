@@ -1,6 +1,4 @@
 /.nuxt/
 /node_modules/
 nuxt.config.js
-plugins
-/.storybook/
 coverage
