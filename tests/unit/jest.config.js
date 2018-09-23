@@ -3,7 +3,7 @@
 module.exports = {
   verbose: true,
   // without this line rootDir will be `./tests`
-  rootDir: '..',
+  rootDir: '../..',
   // without this line sometimes `jsdom` fails to run the tests:
   // see: https://github.com/facebook/jest/issues/6766
   testURL: 'http://localhost',

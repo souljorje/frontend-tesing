@@ -9,6 +9,7 @@ module.exports = {
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
     'plugin:vue/essential',
     'plugin:jest/recommended',
+    'plugin:testcafe/recommended',
   ],
   env: {
     browser: true,
@@ -37,6 +38,7 @@ module.exports = {
   plugins: [
     'vue', // required to lint *.vue files
     'jest',
+    'testcafe',
   ],
   // add your custom rules here
   rules: {
@@ -72,6 +74,7 @@ module.exports = {
     'jest/prefer-to-be-null': "warn",
     'jest/prefer-to-be-undefined': "warn",
     'jest/prefer-to-have-length': "warn",
+    'no-return-await': process.env.NODE_ENV === 'e2e' ? 'off': 'error',
   },
   "overrides": [{
     "files": ["*.vue"],
