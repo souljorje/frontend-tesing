@@ -8,6 +8,7 @@
       <h2 class="subtitle">
         Example app with unit and e2e tests
       </h2>
+      <counter/>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -23,13 +24,15 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from '@/components/Logo.vue';
+import Counter from '@/components/Counter/Counter.vue';
 
 export default {
   components: {
-    Logo
-  }
-}
+    Logo,
+    Counter,
+  },
+};
 </script>
 
 <style>

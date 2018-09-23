@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter renders correctly 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <label>
+      
+      Decrement by:
+      
+      <input
+        type="number"
+      />
+    </label>
+     
+    <button
+      type="submit"
+    >
+      Make!
+    </button>
+  </form>
+   
+  <form
+    action="#"
+  >
+    <label>
+      
+      Increment by:
+      
+      <input
+        type="number"
+      />
+    </label>
+     
+    <button
+      type="submit"
+    >
+      Make!
+    </button>
+  </form>
+   
+  <div>
+    
+    Mutate by 1:
+    
+    <button>
+      Decrement
+    </button>
+     
+    <button>
+      Increment
+    </button>
+  </div>
+   
+  <button>
+    Reset
+  </button>
+   
+  <div>
+    0
+  </div>
+</div>
+`;
